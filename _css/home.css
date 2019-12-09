@@ -1,0 +1,160 @@
+
+/* Corpo do Site */
+
+.instituicao{
+    background-color: rgb(202, 202, 202);
+    height: 5px;
+    margin-top: auto;
+    border-bottom: 1px solid black;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 45px;
+}
+
+/* Tabela de informação coluna 1 */
+
+.tabela{
+    border: 1px solid black;
+    border-spacing: 0px;
+    margin: auto;
+}
+
+.col{
+    background-color: rgb(0, 30, 114);
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 30px;
+    font-size: 20pt;
+    width: 340px;
+    color: white;
+}
+
+.row{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 30px;
+    font-size: 15pt;
+    width: 345px;
+    background-color: white;
+}
+
+/* Botões */
+
+.btn{
+    padding: 8px;
+    margin: auto;
+    background-color: rgb(1, 115, 209);
+    color: white;
+    border: 2px solid black;
+    box-shadow: 2px 1px 2px 1px gray;
+    cursor: pointer;
+}
+
+#programacao{
+    color: green;   
+}
+
+#c-data{
+    margin-bottom: 10px;
+}
+
+#c-nome{
+    font-size: 14pt;
+}
+
+/* coluna 2 */
+
+.col2{
+    background-color: rgb(145, 145, 145);
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 5px;
+    font-size: 15pt;
+    width: 340px;
+    color: white;
+}
+
+.row2{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    font-size: 15pt;
+    width: 345px;
+    background-color: white;
+}
+
+
+#cursos{
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#logo{
+    margin-left: 40px;
+}
+
+#cPesquisa{
+    margin-left: 15px;
+    border-radius: 5px;
+    height: 25px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#btn-pesquisa{
+    margin-left: 5px;
+    margin-top: 1px;
+    height: 30px;
+    background-color: rgb(4, 124, 0);
+    border: 3px solid black;
+    box-shadow: 2px 1px 2px 1px rgb(29, 29, 29);
+    color: white;
+    cursor: pointer;
+}
+
+#cQtd{
+    font-size: 12pt;
+    color: rgb(1, 59, 1); 
+    margin-left: 75px;
+}
+
+.enfeite{
+    width: 100px;
+    height: 75px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.enfeite:hover{
+    background-color: gray;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+/* coluna 3 linha 2 */
+
+#icon-qs{
+    width: 70px;
+    height: 70px;
+    margin-left: 170px;
+}
+
+p{
+    font-size: 12pt;
+    color: rgb(1, 59, 1); 
+    margin-left: 30px;
+}
+
+
+
+
+
+

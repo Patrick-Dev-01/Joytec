@@ -1,0 +1,29 @@
+/* corpo */
+
+.corpo{
+    background-color: rgb(0, 30, 114);
+    height: 480px;
+}
+
+.calendario{
+    background-color: white;
+    height: 410px;
+    overflow: auto;
+}
+
+#title{
+    margin-left: 10px;
+    color: white;
+}
+
+#c-data{
+    margin-bottom: 10px;
+    font-size: 15pt;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#c-nome{
+    font-size: 14pt;
+}
+

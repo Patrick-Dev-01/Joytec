@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+/* cabeçalho */
+
+header{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+}
+
+#navegacao{
+    display: flex;
+    list-style: none;
+}
+
+.pages{
+    margin-top: 20px;
+}
+
+.pages a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    font-size: 14pt;
+}
+
+.pages a:hover{
+    background-color: rgba(172, 170, 170, 0.534);
+    transition: 1s;
+}
+
+#admin{
+    width: 60px;
+    height: 60px;
+    margin-right: 35px;
+}
+
+#joytec{
+    margin-left: 510px;
+}

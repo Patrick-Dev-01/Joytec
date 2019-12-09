@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+
+#title{
+    text-align: center;
+}
+
+.cadastro{
+    background-color: white;
+    width: 400px;
+    height: 370px;
+    margin: auto;
+    border: 2px solid gray;
+    box-shadow: 1px 2px 1px 1px gray;
+}
+
+label{
+    margin: 5px;
+    padding: 5px;
+    font-size: 13pt;
+}
+
+input{
+    margin: 10px;
+}
+
+#btn-cadastrar{
+    background-color: rgb(2, 207, 2);
+    color: white;
+    padding: 5px;
+    border: 2px solid black;
+    margin-left: 150px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+span a{
+    margin-left: 10px;
+    color: purple;
+}

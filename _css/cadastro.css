@@ -1,0 +1,72 @@
+
+/* Formulario */
+
+.corpo{
+    margin: auto;
+    opacity: 5px;
+}
+
+.formulario{
+    background-color: rgb(2, 0, 94);
+    width: 695px;
+    height: 465px;
+    margin: auto;
+    overflow: auto;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 4px 2px 4px 1px rgb(73, 73, 73);
+    margin-top: 1px;
+}
+
+.imagem{
+    float: left;
+}
+
+#fundo{
+    height: 468px;
+    width: 500px;
+}
+
+.legend{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+label{
+    margin: 15px;
+    margin-left: 10px;
+    color: white;
+}
+
+input{
+    margin: 10px;
+}
+
+#ver-senha{
+    position: relative;
+    float: right;
+    margin-top: 6px;
+    margin-right: 305px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#card{
+    width: 230px;
+    height: 200px;
+    float: right;
+}
+
+#cCadastrar{
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 50px;
+    background-color: rgb(14, 209, 24);
+    color: rgb(255, 255, 255);
+    border: 2px double rgb(209, 209, 209);
+    cursor: pointer;
+}

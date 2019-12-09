@@ -1,0 +1,142 @@
+/* Corpo */
+
+.corpo{
+    height: 470px;
+    background-color: rgb(2, 0, 94);
+    margin: auto;
+}
+
+.fundo{
+    background-color: white;
+    height: 410px;
+}
+
+#a{
+    color: transparent;
+}
+
+#cTitulo{
+    color: white;
+    font-size: 15pt;
+    margin-left: 15px;
+}
+
+.cursos{
+    height: 400px;
+    background-color: white;
+    width: 900px;
+    float: right;
+    overflow: auto;
+}
+
+/* Fazer nova busca */
+
+label{
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 12pt;
+}
+
+input{
+    margin-left: 5px;
+    margin-top: 15px;
+    height: 30px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#btn-buscar{
+    margin-left: 5px;
+    margin-top: 1px;
+    height: 30px;
+    background-color: rgb(4, 124, 0);
+    border: 2px solid black;
+    box-shadow: 2px 1px 2px 1px rgb(29, 29, 29);
+    color: white;
+    cursor: pointer;
+}
+
+/* Resultado da busca */
+
+.resultado{
+    border: 1px solid black;
+    width: 700px;
+    margin-top: 35px;
+}
+
+#curso-icon{
+    width: 80px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#curso-nome{
+    float: right;
+    position: relative;
+    margin-right: 340px;
+    margin-top: 30px;
+    font-size: 14pt;
+}
+
+#grade{
+    margin-left: 5px;
+}
+
+#descricao{
+    margin-left: 10px;
+}
+
+#carga{
+    font-size: 10pt;
+    margin-left: 5px;
+}
+
+#grau{
+    float: right;
+    position: relative;
+    font-size: 12pt;
+    margin-right: 10px;
+}
+
+.inscrever-curso{
+    float: left;
+    position: relative;
+    margin-top: 15px;
+}
+
+.btn-inscrever{
+    background-color: rgb(47, 211, 25);
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* filtros de Pesquisa */
+
+.options{
+    width: 300px;
+    height: 410px;
+    background-color: white;
+    float: left;
+    border-right: 1px solid black;
+    overflow: auto;
+}
+
+.filtrar{
+    margin-left: 5px;
+}
+
+.filtros{
+    margin-left: 10px;
+    font-size: 12pt;
+}
+
+.filtros a:hover{
+    border-bottom: 1px solid purple;
+    color: rgb(1, 115, 209);
+}
+

@@ -1,0 +1,88 @@
+/* corpo */
+
+.sessao{
+    background-color: rgb(2, 0, 94);
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+
+/* boas vindas */
+
+#boas-vindas{
+    background-color: gray;
+    width: 895px;
+    height: 350px;
+    margin: auto;
+}
+
+#title{
+    margin-left: 10px;
+    color: white;
+}
+
+/* ficha do admin */
+
+#title-ficha{
+    text-align: center;
+    font-size: 14pt;
+}
+
+.admin-info{
+    background-color: white;
+    width: 600px;
+    height: 290px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.ficha{
+    border: 2px solid black;
+    width: 450px;
+    height: 190px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#admin-logado{
+    width: 80px;
+    height: 80px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.dados{
+   margin-top: 30px;
+}
+
+.info-admin{
+    font-size: 13pt;
+}
+
+#admin-nome{
+    font-size: 12pt;
+}
+
+/* data de admissão */
+
+#dt-admissao{
+    position: relative;
+    margin-left: 5px;
+    font-size: 10pt;
+}
+
+/* encerrar a sessão */
+
+#enc{
+    width: 30px;
+    height: 30px;
+    margin-top: 70px;
+    margin-left: 245px;
+}
+
+
+

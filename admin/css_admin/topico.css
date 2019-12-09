@@ -1,0 +1,110 @@
+.topico{
+    margin-top: 10px;
+    height: 470px;
+    background-color: white;
+    overflow: auto;
+}
+
+/* duvidas */
+
+.duvida{
+    border: 1px solid black;
+    width: 900px;
+    margin-bottom: 50px;
+    margin: auto;
+}
+
+/* nome */
+
+span{
+    float: left;
+}
+
+.nome{
+    border: 1px solid black;
+    width: 100px;
+    margin-left: 10px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 60px;
+}
+
+#user-nome{
+    float: left;
+    margin-left: 5px;
+    font-size: 13pt;
+    margin-top: 30px;
+    text-align: center;
+}
+
+h2{
+    margin-left: 5px;
+}
+
+p{
+    text-indent: 10px;
+}
+
+/* formulario de reposta */
+
+label{
+    font-size: 13pt;
+    margin-left: 10px;
+}
+
+#comentario{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.btn{
+    width: 80px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+#btn-resp{
+    background-color: rgb(4, 212, 4);
+}
+
+#btn-limpar{
+    margin-left: 220px;
+    background-color: rgb(56, 55, 55);
+}
+
+/* resposta do administrador */
+
+#nome-adm{
+    float: left;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+#adm{
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 12pt;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.resposta{
+    border: 1px solid black;
+    width: 900px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+strong{
+    margin-bottom: 10px;
+}
+
+small{
+    margin-left: 5px;
+    font-size: 12pt;
+    margin-top: 5px;
+}

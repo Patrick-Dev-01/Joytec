@@ -1,0 +1,101 @@
+body{
+    background-color: #000000;
+}
+
+/* Cabeçalho */
+
+#cabecalho{
+    background-color: rgb(255, 255, 255);
+}
+
+.corpo{
+    background-color: white;
+    height: 470px;
+    border: 2px solid white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+}
+
+#menu li{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 15pt;
+    color: rgb(48, 48, 48);
+}
+
+#menu li a{
+    padding: 5px;
+}
+
+#menu .links a:hover{
+    background-color: rgba(128, 128, 128, 0.397);
+    border-bottom: 1px solid purple;
+    transition: 1s;
+}
+
+#candidato{
+    float: right;
+    margin-left: 650px;
+    border: 2px solid black;
+    background-color: rgb(1, 115, 209);
+    color: white;
+    font-size: 10pt;
+    padding: 5px;
+    box-shadow: 2px 1px 2px 1px gray;
+    cursor: pointer;
+}
+
+/* usuario se estiver logado */
+
+#log{
+    float: right;
+    margin-left: 570px;
+    margin-top: 10px;
+}
+
+#ficha{
+    background-image: url(../../_icons/usuario.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: 20px;
+    padding: 3px;
+    position: relative;
+    background-color: rgb(255, 74, 2);
+    border: 3px solid rgb(77, 77, 77);
+    color: white;
+    cursor: pointer;
+}
+
+#nome{
+    font-size: 10pt;
+    margin: 5px;
+}
+
+/* sair */
+
+#exit{
+    float: right;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#sair{
+    background-image: url(../../_icons/sair.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: 20px;
+    padding: 3px;
+    position: relative;
+    background-color: rgba(146, 0, 0, 0.13);
+    border: 3px solid rgb(77, 77, 77);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}

@@ -1,0 +1,77 @@
+/* Corpo*/
+
+.corpo{
+    height: 470px;
+    background-color: rgb(0, 30, 114);
+}
+
+#agradecimento{
+    color: white;
+    margin-left: 10px;
+}
+
+.nota{
+    height: 400px;
+    background-color: white;
+}
+
+#ol{
+    color: gray;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+p{
+    margin-left: 10px;
+    font-size: 13pt;
+}
+
+#obs{
+    margin-left: 10px;
+}
+
+/* estrutura */
+
+#info{
+    margin-left: 10px;
+}
+
+
+small{
+    font-size: 11pt;
+}
+
+#front{
+    color: rgb(1, 66, 119);
+}
+
+#pdg{
+    color: red;
+}
+
+#soft{
+    color: darkgreen;
+}
+
+/* Assinatura */
+
+.autor{
+    float: right;
+    margin-right: 20px;
+}
+
+.autor :hover{
+    background-color: rgb(209, 209, 209);
+}
+
+/* area administrativa */
+
+.admin{
+    float: left;
+    margin-left: 10px;
+}
+
+.admin :hover{
+    background-color: rgb(209, 209, 209);
+}

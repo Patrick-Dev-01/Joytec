@@ -1,0 +1,47 @@
+/* corpo */
+
+.corpo{
+    height: 470px;
+    background-color: rgb(0, 30, 114);
+}
+
+#qtd{
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+/* Tabela de informações */
+
+.tabela{
+    background-color: white;
+    height: 400px;
+    overflow: auto;
+}
+
+#inscritos{
+    width: 900px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 15px;
+    border-spacing: 0px;
+}
+
+.titulo{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 14pt;
+    background-color: rgb(0, 159, 170);
+    color: white;
+}
+
+.row{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 13pt;
+}
+
+.col{
+    text-align: center;
+}
+

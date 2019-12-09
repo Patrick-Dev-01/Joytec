@@ -1,0 +1,65 @@
+.corpo{
+    background-color: white;
+    overflow: auto;
+}
+
+/* duvida */
+
+.duvida{
+    border: 1px solid black;
+    width: 900px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+h2{
+    margin-left: 10px;
+}
+
+p{
+    padding: 5px;
+    text-align: justify;
+    font-size: 13pt;
+}
+
+.nome{
+    border: 1px solid black;
+    width: 100px;
+    margin-left: 10px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 60px;
+}
+
+/* resposta do administrador */
+
+#nome-adm{
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#adm{
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 12pt;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.resposta{
+    border: 1px solid black;
+    width: 900px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+strong{
+    margin-bottom: 10px;
+}
+
+small{
+    margin-left: 5px;
+    font-size: 12pt;
+    margin-top: 5px;
+}

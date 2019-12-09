@@ -1,0 +1,57 @@
+/* corpo */
+
+.corpo{
+    background-color: white;
+    width: 1200px;
+    height: 470px;
+    margin: auto;
+    margin-top: 10px;
+    overflow: auto;
+}
+
+#title{
+    text-align: center;
+}
+
+/* formulario de UPDATE */
+
+label{
+    font-size: 14pt;
+    margin-left: 10px;
+}
+
+input{
+    margin: 10px;
+    height: 25px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+select{
+    margin-bottom: 20px;
+    width: 100px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+textarea{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#icone{
+    float: right;
+}
+
+#btn-alterar{
+    background-color: green;
+    width: 130px;
+    height: 30px;
+    margin-left: 500px;
+    border: 1px solid black;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css_admin/admin_cadastro.css">
+    <title>Cadastrar Administrador</title>
+</head>
+<body>
+    <div class="cadastro">
+        <form action="./models/cadastro_admin.php" method="POST">
+            <h2 id="title">Cadastrar Administrador</h2>
+            <hr>
+            <label for="nome">Nome: 
+                <input type="text" name="nome" id="" style="width: 250px; height: 20px;">
+            </label><br>
+
+            <label for="sobrenome">Sobrenome: 
+                <input type="text" name="sobrenome" id="" style="width: 215px; height: 20px;">
+            </label><br>
+
+            <label for="senha">Senha: 
+                <input type="password" name="senha" id="" style="width: 250px; height: 20px;" placeholder="minimo 3 caracteres">
+            </label><br>
+
+            <label for="email">Email: 
+                <input type="email" name="email" id="" style="width: 252px; height: 20px;">
+            </label><br>
+
+            <button type="submit" id="btn-cadastrar">Cadastrar Admin</button>
+            <hr>
+            <span><a href="http://localhost/joytec/admin/login_admin.html" id="pag-login">Já sou Administrador</a></span>
+        </form>
+    </div>
+</body>
+</html>

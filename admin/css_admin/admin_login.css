@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+.login{
+    background-color: white;
+    width: 300px;
+    height: 290px;
+    margin: auto;
+    border: 2px solid gray;
+    box-shadow: 1px 2px 2px 1px gray;
+}
+
+label{
+    margin: 5px;
+    font-size: 14pt;
+}
+
+input{
+    margin: 10px;
+    width: 200px;
+    height: 20px;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#btn-login{
+    width: 80px;
+    height: 30px;
+    margin-left: 120px;
+    margin-top: 15px;
+    background-color: orangered;
+    color: white;
+    border: 2px solid black;
+    padding: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+p{
+    font-size: 14pt;
+    text-align: justify;
+    padding: 8px;
+}

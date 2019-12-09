@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css_admin/admin_login.css">
+    <title>Login Administrador</title>
+</head>
+<body>
+    <h2>Área Restrita</h2>
+    <div class="login">
+        <p>Você está tentando acessar a Àrea Administrativa, faça a Autenticação: </p>
+        <form action="./models/login_admin.php" method="POST">
+            <label for="email">Email: 
+                <input type="text" name="email" id="">
+            </label><br>
+            
+            <label for="senha">Senha: 
+                <input type="password" name="senha" id="">
+            </label><br>
+
+            <button type="submit" id="btn-login">Entrar</button>
+            <hr>
+            <span><a href="admin_cadastro.html">Cadastrar um Administrador</a></span>
+        </form>
+    </div>
+</body>
+</html>
